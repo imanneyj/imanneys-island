@@ -1,0 +1,50 @@
+/* ctrl + / for alt cmmnts and do same to reverse */
+html {
+    background-color: rgb(67, 195, 195);
+}
+
+body {
+    background-color: rgb(81, 206, 196);
+    font-size:22px; 
+}
+/* everything is automatically relatively sized according to the body */
+p {
+background-color:orangered;
+color:orange; 
+border: dashed 10px cornflowerblue;
+text-align:left; 
+padding: 20px 60px 80px 100px;
+margin: 50px; 
+}
+/*padding
+1 value is uniform 
+2 values is:
+    (1)top and bottom
+    (2)left and right
+4 values is:
+   (1) top
+   (2) right
+   (3) bottom
+   (4) left
+padding-top/right/left can be added */
+
+
+h1 {
+    /* font-size: 60px; */
+}
+
+.special {
+    background-color: blue;
+    color:rgb(168, 198, 255); 
+    border-radius: 30px;
+}
+
+.centered-text {
+    text-align: center;
+    padding:20px;
+}
+/* there should only be one id per element and per page
+id= # 
+
+class can be applied to multiple elements 
+class = .*/
