@@ -1,0 +1,70 @@
+body,a {
+  font-family: 'Updock', cursive;
+  color:white;
+  margin: 0; padding: 0;
+}
+
+a {
+    font-size: 100px ;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+ h1 {
+    font-size: 160px ;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+h2 {
+    font-size:100px;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+h3 {
+    font-size:50px;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+h4 {
+    font-size:90px;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+
+p {
+    font-size:120px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.stripe { 
+    background-color:rgb(16, 116, 53);
+} 
+.orange { 
+    background-color: rgb(16, 116, 53) ;
+     height: 250vh; width: 100%;
+}
+.lime {
+     height: 250vh; width: 100%;
+    background-color:rgb(16, 116, 53) 
+}
+.pink {
+     height: 250vh; width: 100%;
+    background-color: rgb(16, 116, 53);
+}
+.yellow {
+     height: 250vh; width: 100%;
+    background-color: rgb(16, 116, 53);
+}
+.blue {
+     height: 250vh; width: 100%;
+    background-color: rgb(16, 116, 53);
+}
+.purple {
+     height: 250vh; width: 100%;
+    background-color:rgb(16, 116, 53);
+}

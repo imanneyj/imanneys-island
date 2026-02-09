@@ -1,0 +1,71 @@
+
+body,a {
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  margin: 0; padding: 0;
+}
+
+a {
+    font-size: 100px ;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+ h1 {
+    font-size: 160px ;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+h2 {
+    font-size:100px;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+h3 {
+    font-size:50px;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+h4 {
+    font-size:90px;
+    margin: 0; padding: 0;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+
+p {
+    font-size:120px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.stripe { 
+    background-color:orange;
+} 
+.orange { 
+    background-color: orange ;
+     height: 250vh; width: 100%;
+}
+.lime {
+     height: 250vh; width: 100%;
+    background-color:rgb(74, 234, 15) 
+}
+.pink {
+     height: 250vh; width: 100%;
+    background-color: rgb(230, 70, 118);
+}
+.yellow {
+     height: 250vh; width: 100%;
+    background-color: rgb(255, 238, 46);
+}
+.blue {
+     height: 250vh; width: 100%;
+    background-color: rgb(7, 193, 255);
+}
+.purple {
+     height: 250vh; width: 100%;
+    background-color:purple ;
+}

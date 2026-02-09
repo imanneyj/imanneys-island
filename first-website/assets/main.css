@@ -1,4 +1,4 @@
-/* ctrl + / for alt cmmnts and do same to reverse */
+/* ctrl/ for alt cmmnts and do same to reverse */
 html {
     background-color: rgb(67, 195, 195);
 }
@@ -6,6 +6,8 @@ html {
 body {
     background-color: rgb(81, 206, 196);
     font-size:22px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , fantasy;
+    /* first listed font is default, 2nd is backup */
 }
 /* everything is automatically relatively sized according to the body */
 p {
@@ -28,10 +30,7 @@ margin: 50px;
    (4) left
 padding-top/right/left can be added */
 
-
-h1 {
     /* font-size: 60px; */
-}
 
 .special {
     background-color: blue;
