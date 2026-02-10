@@ -41,6 +41,12 @@ p {
     padding-left: 50px;
     padding-right: 50px;
 }
+li {
+    font-size:45px;
+    margin: 0; padding: 0;
+     padding-left: 100px;
+     padding-right: 50px;
+}
 .stripe { 
     background-color:rgb(16, 116, 53);
 } 
