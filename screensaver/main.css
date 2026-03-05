@@ -8,7 +8,8 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:rgb(0, 0, 0) ;
+    background-color:black ;
+    cursor:url("assets/Baby.1.png"), auto;
 }
 .music {
     position: relative; 
