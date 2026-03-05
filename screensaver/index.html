@@ -13,8 +13,7 @@
     <span class="note">♬</span>
     <!-- 3rd child -->
    
-    <audio id=a src="assets/bby-luv.mp3" autoplay loop>
-    </audio>
+    <audio id=a src="assets/bby-luv.mp3" loop> </audio>
     </div>
     </body>
 </html>
@@ -23,4 +22,14 @@
     addEventListener('click', function() {
     document.getElementById('a').play()})
     ;
+
+    document.addEventListener("click", function(e) 
+    {const img = document.createElement("img");
+    img.src = "assets/Baby.png";
+    img.style.position = "absolute";
+    img.style.left = e.pageX + "px";
+    img.style.top = e.pageY + "px";
+    img.style.width = "75px";
+    document.body.appendChild(img);
+    });
 </script>
