@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Screensaver </title>
+        <link rel="stylesheet" href="main.css">
+    </head> 
+    <body>
+    <div class="music">
+    <img id="cd" src="assets/cd player.png" alt="CD Player">
+    <span class="note">♪</span>
+    <span class="note">♫</span> 
+    <!-- 2nd child -->
+    <span class="note">♬</span>
+    <!-- 3rd child -->
+   
+    <audio id=a src="assets/bby-luv.mp3" autoplay loop>
+    </audio>
+    </div>
+    </body>
+</html>
+<script> 
+    document.getElementById('cd').
+    addEventListener('click', function() {
+    document.getElementById('a').play()})
+    ;
+</script>
