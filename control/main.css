@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    height: 100vh;
+}
+.sidebar {
+  width: 200px;
+  background: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;     
+  overflow-y: auto;  
+  box-sizing: border-box;
+  
+}
+.container{
+    display: flex;      
+    width: 100%;
+    height: 100%;      
+}
+
+.thumb {
+  width: 100%;
+  cursor: grab;
+}
+.drop {
+  flex: 1;
+  background: conic-gradient(red 25%, white 0 50%, red 0 75%, white 0) 0 0 / 55px 55px;
+  position: relative;
+  overflow: hidden;
+  min-height:100vh;
+}
+
+/* images after you drop them */
+.drop img {
+  position: absolute;
+  width: 500px; /* size of ingredients */
+  
+}
+.thumb:active {
+    opacity: 0.5; /* makes it see-through while dragging */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Control </title>
+        <link rel="stylesheet" href="main.css">
+    </head> 
+    <body>
+    <div class="container">
+    <div class="sidebar">
+    <img src="assets/burger bottom.png" class="thumb" draggable="true">
+    <img src="assets/tomato.png" class="thumb" draggable="true">
+    <img src="assets/lettuce.png" class="thumb" draggable="true">
+    <img src="assets/jalapeno.png" class="thumb" draggable="true">
+    <img src="assets/pickle.png" class="thumb" draggable="true">
+    <img src="assets/onion.png" class="thumb" draggable="true">
+    <img src="assets/bacon.png" class="thumb" draggable="true">
+    <img src="assets/cheese.png" class="thumb" draggable="true">
+    <img src="assets/patty.png" class="thumb" draggable="true">
+    <img src="assets/chicken breast.png" class="thumb" draggable="true">
+    <img src="assets/burger top.png" class="thumb" draggable="true">
+    </div>
+    <div class="drop"></div>
+    </div>
+<script>
+    const drop = document.querySelector(".drop");
+    let draggedSrc = null;
+//const: does not change, let: can change later. drop area is const and fills the document, draggable srcs (dragged src) are let
+    document.querySelectorAll(".thumb")
+    .forEach(img => 
+        {img.addEventListener("dragstart", () => {draggedSrc = img.src;});}
+    );
+// queryselectorall= selecting all thumb class, for each img a "dragstart" event us added for draggable src
+    drop.addEventListener("dragover", e => {e.preventDefault();});
+//allows dragging, which isnt allowed by default, e is the event (dragover)
+    drop.addEventListener("drop", e => { e.preventDefault();
+//allows dropping
+  const newImg = document.createElement("img");
+  newImg.src = draggedSrc;
+  const rect = drop.getBoundingClientRect();
+  newImg.style.position = "absolute";
+  const imgWidth = 500;
+  newImg.style.left = (e.clientX - rect.left-imgWidth/2) + "px";
+  newImg.style.top = (e.clientY - rect.top-imgWidth/2) + "px";
+  newImg.draggable = false;
+
+  drop.appendChild(newImg);
+
+  
+});
+</script>
+
+
