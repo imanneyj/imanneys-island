@@ -1,0 +1,78 @@
+#index h1 a{
+  color: black;
+  text-decoration: none;
+  font-family: "bebas-neue", sans-serif;
+  font-weight:400;
+  font-size:50px ;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 255, 0);
+   text-decoration: none;
+}
+h3 {
+    margin-top: 100px;
+    margin-left:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-size:15px
+}
+
+nav{ 
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#wrapper {
+    display: flex;
+    padding-left: 10px;
+}
+#index {
+    width: 250px;
+    flex-shrink:0;
+    position: fixed;
+}
+#content {
+    margin-top:20px;
+     margin-left: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#content h2 {
+   margin-right: 150px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   color: rgb(0, 255, 0);
+}
+#content img {
+ width: 520px;
+ margin:0
+}
+
+#index a {
+  color: rgb(0, 255, 0);
+  font-style: normal;
+}
+
+#index a:active, #index a:hover {
+  color: black;
+  font-style: italic;
+  
+} 
+#index h1 a:hover,#index h1 a:active
+ {
+  color: black;
+  font-style: italic;
+}
+
+#corner-icon { 
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 90px !important;
+
+}
