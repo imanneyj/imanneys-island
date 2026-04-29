@@ -76,3 +76,7 @@ nav{
   width: 90px !important;
 
 }
+.video {
+  width: 1000px;
+  height: auto;
+}
